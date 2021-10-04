@@ -1,0 +1,42 @@
+.keyboard {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: gray;
+    user-select: none;
+}
+
+.keyboard_keys {
+    text-align: left;
+}
+
+.keyboard_key {
+    height: 45px;
+    width: 6%;
+    max-width: 90px;
+    margin: 1px;
+    background: black;
+    color: white;
+    font-size: 1.05rem;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+}
+
+.keyboard_key_wide {
+    max-width: 135px;
+    width: 12%;
+}
+
+.keyboard_key_extrawide {
+    width: 36%;
+    max-width: 500px;
+}
+
+.keyboard_key_block {
+    height: 90px;
+    width: 90px;
+    margin-top: 0px;
+    display: inline-block;
+}
